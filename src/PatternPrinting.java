@@ -9,7 +9,10 @@ public class PatternPrinting {
 
         for (int i = 1; i <= n; i++) {
 
-            System.out.print("* ");
+            System.out.print("*");
+            if(i!=n){
+                System.out.print(" ");
+            }
         }
         System.out.println();
         for (int i = 1; i <= n; i++) {
